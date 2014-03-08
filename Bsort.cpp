@@ -1,5 +1,9 @@
 #define SWAP(A, B) { char t = A; A = B; B = t; }
- 
+/**
+@brief Функция сортировки
+@detailed осуществляет сортировку методом пузырька
+@param указатель на массив, размерность массива
+*/ 
 void bubblesort(char *a, int n)
 {
   int i, j;
